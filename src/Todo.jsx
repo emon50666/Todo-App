@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { addTodo, removeTodo, toggleTodo } from "./Redux/todoSlice";
+import { addTodo, removeTodo, toggleTodo } from "./redux/todoSlice";
 import { FiEdit } from "react-icons/fi";
 import { MdOutlineDeleteForever } from "react-icons/md";
 
