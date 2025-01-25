@@ -53,7 +53,7 @@ const TodoApp = () => {
       <div className="min-h-screen bg-black/10 flex flex-col items-center py-10">
         <h1 className="text-2xl lg:text-4xl font-bold mb-6 font-mono">Personal Todo App</h1>
 
-        <div className="w-11/12 max-w-[470px] mb-6">
+        <div className="w-11/12  lg:max-w-[430px] mb-6">
           <div className="flex items-center">
             <input
               type="text"
@@ -63,10 +63,10 @@ const TodoApp = () => {
               className="flex-grow px-4 py-2 bg-gray-50 rounded-l-md focus:outline-none focus:bg-blue-50 text-green-700 font-semibold"
             />
             <button
-              className="px-4 py-2 bg-blue-800 text-10px lg:font-semibold text-white rounded-r-md hover:bg-blue-600"
+              className="px-4 py-2 bg-blue-800   lg:text-md lg:font-semibold text-white rounded-r-md hover:bg-blue-600"
               onClick={handleAddTodo}
             >
-              {editId ? "Edit Todo" : "Add Todo"}
+              {editId ? "Edit Todo" : "Add"}
             </button>
           </div>
         </div>
