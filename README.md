@@ -8,12 +8,14 @@ The person should clone your GitHub repository using the command:
 ``` bash
 git clone https://github.com/emon50666/Todo-App
 cd todo-app 
-
+```
 Install Dependencies:
 After navigating to the project directory, they should install the necessary dependencies:
-
-bash
+bash 
+```
 npm install
+```
 run application 
+```
 npm run dev
 ``` 
